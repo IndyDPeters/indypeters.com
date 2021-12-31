@@ -18,13 +18,6 @@ a{
    
 }
 
-@media (max-width: 991px){
-    .header{
-        font-size: 90px;
-        padding: 2%;
-    }
-}
-
 
 .body{
     top: 35%;
@@ -33,11 +26,9 @@ a{
     padding-left: 1%;
 }
 
-@media (max-width: 991px){
-    .body{
-        font-size: 50px;
-        padding-left: 2%;
-    }
+.body-undertext{
+    font-size: medium;
+    text-align: center;
 }
 
 .footer{
@@ -52,5 +43,15 @@ a{
 @media (max-width: 991px){
     .footer{
         font-size: x-large;
+    }
+
+    .body{
+        font-size: 50px;
+        padding-left: 2%;
+    }
+
+    .header{
+        font-size: 90px;
+        padding: 2%;
     }
 }
