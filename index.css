@@ -8,10 +8,18 @@ a{
     font-size: xx-large;
     float: right;
     padding: 1%;
+    display: flex;
 
 }
 
+.header-mail-icon{
+    display: grid;
+    text-align: center;
+}
 
+#header-mail-icon-left{
+    padding-right: 30px;
+}
 .body{
     top: 35%;
     position: absolute;
@@ -46,5 +54,12 @@ a{
     .header{
         font-size: 90px;
         padding: 2%;
+        text-align: center;
+    }
+
+    .header-mail-icon{
+        display: grid;
+       
     }
 }
+
